@@ -1,35 +1,31 @@
 
 
 * {
-
     margin: 0;
     padding: 0;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
 }
-  
+
 body{
 
-    height: 100vh;
-    background: linear-gradient(to bottom,#ffe53bd8,#ff2525da);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+height: 100vh;
+background: linear-gradient(to bottom,#ffe53bd8,#ff2525da);
+display: flex;
+align-items: center;
+justify-content: center;
+}
 
 
-    
- }
-
-
- .relogio{
-    display: flex;
-    align-items: center;
-    justify-content:space-around;
-    height:200px;
-    width:550px ;
-    background: transparent;
-    border-radius: 3px;
-    box-shadow: 0px 8px 10px black;
-
+.relogio{
+display: flex;
+align-items: center;
+justify-content:space-around;
+height:200px;
+width:550px ;
+background: transparent;
+border-radius: 3px;
+box-shadow: 0px 8px 10px black;
 }
 
 .relogio div {
@@ -48,10 +44,8 @@ letter-spacing: 3px;
 }
 
 .relogio span{
- font-weight: bolder;    
- font-size: 60px;
-
-
+font-weight: bolder;    
+font-size: 60px;
 }
 
 .relogio span.tempo{
